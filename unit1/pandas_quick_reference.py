@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('AmesHousing.csv')
+df = pd.read_csv('../datasets/AmesHousing.csv')
 
 # print(df.shape)    # Rows, Columns
 # print(df.columns)  # Column names
