@@ -11,4 +11,3 @@ sns.boxplot(x=df['SalePrice'])    # Horizontally
 plt.title('Distribution of House Sale Prices')
 plt.ylabel('Sale Price ($)')
 plt.show()
-

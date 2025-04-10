@@ -20,6 +20,5 @@ print(df.duplicated().sum())      # Check for duplicates
 print(df.info())                  # Non-null counts per column
 
 print(df.corr(numeric_only=True))   # Correlation matrix, each-to-each
-                                      # Correlation given column to others
+                                    # Correlation given column to others
 print(df.corr(numeric_only=True)['SalePrice'].sort_values(ascending=False))
-
